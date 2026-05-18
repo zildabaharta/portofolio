@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Profil</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amarante&family=Sedgwick+Ave+Display&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+	<style>
+		body::before {
+			content: none;
+		}
+        body {
+            background-color: #ffffff;
+            padding: 0 2cm 0 2cm;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        .project-container {
+            background: linear-gradient(to bottom, #000000 0%, #800080 50%, #ffffff 100%);
+            margin-left: -2cm;
+            margin-right: -2cm;
+            padding-left: 2cm;
+            padding-right: 2cm;
+            width: 100vw;
+        }
+        nav {
+            width: 100vw !important;
+            position: relative !important;
+            left: 50% !important;
+            margin-left: -50vw !important;
+            margin-right: -50vw !important;
+        }
+        form ul {
+            padding-left: 0 !important;
+            margin-left: 0 !important;
+        }
+
+        form ul li {
+            padding-left: 0 !important;
+            margin-left: 0 !important;
+            list-style: none;
+        }
+        h1 {
+            font-size: 110px;
+        }
+	</style>
+</head>
+
+<body class="amarante-regular">
+	<nav>
+		<ul>
+			<li><a href="index.html#contact">contact</a></li>
+			<li>works</li>
+			<li>expertience</li>
+			<li class="empty"></li>
+			<li><a href="profil.html">profil</a></li>
+			<li><a href="https://x.com/ciaakyu" target="_blank">twitter</a></li>
+			<li>linkedin</li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<section class="project" style="padding-top: 50px; padding-left: 60px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h1>Form Profil</h1>
+						<p>Isi data diri singkat di bawah ini, lalu tekan tombol simpan untuk melihat hasilnya.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<form id="profilForm">
+							<ul>
+								<li>
+									<label for="nim">NIM</label><br>
+									<input type="text" id="nim" name="nim" required>
+								</li>
+								<li>
+									<label for="nama">Nama</label><br>
+									<input type="text" id="nama" name="nama" required>
+								</li>
+								<li>
+									<label for="alamat">Alamat</label><br>
+									<textarea id="alamat" name="alamat" rows="3" required></textarea>
+								</li>
+								<li>
+									<label for="hobi">Hobi</label><br>
+									<input type="text" id="hobi" name="hobi" required>
+								</li>
+								<li>
+									<label for="instagram">Instagram</label><br>
+									<input type="text" id="instagram" name="instagram" placeholder="@username" required>
+								</li>
+							</ul>
+							<button type="submit" class="button">Simpan</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer id="contact" style="margin-top: 50px; padding-bottom: 50px;">
+		<h2 style="margin-bottom: 100px;">any questions?<br>
+            find me here<br>
+            <a href="mailto:email@zikra.id" style="color: inherit; text-decoration: none;">email@zildabaharta0813</a>
+        </h2>
+		<p style="font-size: 14px; margin-bottom: 50px;">designed & developed by Zilda 2026</p>
+	</footer>
+
+	<script src="css/javascript/js.js"></script>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>
+</html>
